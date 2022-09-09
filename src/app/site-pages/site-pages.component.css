@@ -1,0 +1,30 @@
+#hero {
+  background-image: url("http://localhost:4200/assets/img/hero4.png");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  justify-content: center;
+}
+#hero h4 {
+  padding-bottom: 15px;
+}
+#hero h1 {
+  color: #088178;
+}
+#hero button {
+  background-image: url("http://localhost:4200/assets/img/button.png");
+  background-color: transparent;
+  color: #088178;
+  border: 0;
+  width: 200px;
+  height: 40px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+}
